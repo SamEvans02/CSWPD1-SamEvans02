@@ -1,0 +1,55 @@
+HTML- HyperText Markup Language 
+- HTML tagnames are written between '<' and '>' 
+- Most tagnames have an opening and a closing: 
+  - "<openingtagname> content </closingtagname>" 
+  - As seen above, affected text is contained between the two tags 
+
+- Elements: Identify and structure sections of the page 
+- Attributes: Contain information about the data (These can signify color, style, etc.) 
+- Values: These work with Attributes (These can be numbers, percentages, words, etc.) 
+
+
+Beginning Tags:
+Tags        Significance 
+--------------------------- 
+<h1>    |    Heading 1 
+<h2>    |    Heading 2 
+<h3>    |    Heading 3 
+<h4>    |    Heading 4 
+<h5>    |    Heading 5 
+<h6>    |    Heading 6 
+        | 
+<p>     |    Pararaph 
+        | 
+<b>     |    Bold 
+        | 
+<i>     |    Italics 
+
+
+Layout (Case for the tags does not matter): 
+Header Section Outline (Not seen by user with exception of the tab in browser): 
+<!DOCTYPE HTML>
+<HEAD>
+  <TITLE> Sam's Page <TITLE>
+</HEAD>
+
+Body Section (Everything here is seen by the user): 
+<BODY>
+<H1> My first web page </H1>
+<H2> Kid's stuff </H2>
+<p> This is regular text as a part of a paragraph </p>
+<b> BOLD </b> <i> Italics </i>
+</BODY>
+</HTML>
+
+
+
+
+
+CSS- Cascading Style Sheets 
+
+
+
+
+
+JS- JavaScript 

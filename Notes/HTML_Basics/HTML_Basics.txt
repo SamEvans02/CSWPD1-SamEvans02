@@ -28,20 +28,29 @@ Tags        Significance
 
 Layout (Case for the tags does not matter): 
 Header Section Outline (Not seen by user with exception of the tab in browser): 
-<!DOCTYPE HTML>
-<HEAD>
-  <TITLE> Sam's Page <TITLE>
-</HEAD>
+
+<!doctype HTML>
+<head>
+  <title> Sam's Page <title>
+</head>
 
 Body Section (Everything here is seen by the user): 
-<BODY>
+<body>
 <H1> My first web page </H1>
 <H2> Kid's stuff </H2>
 <p> This is regular text as a part of a paragraph </p>
 <b> BOLD </b> <i> Italics </i>
-</BODY>
+</body>
 </HTML>
 
+
+Web Page Development Process: 
+                                Create-->View-->Modify-->View 
+
+
+The URL- Universal Resource Locator, this is the web adress 
+The Index Page- The first page a website goes to 
+The Viewport- Everything that exists in the body 
 
 
 

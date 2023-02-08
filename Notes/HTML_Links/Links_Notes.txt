@@ -1,0 +1,16 @@
+The tag: <a> defines a Hyperlink, whcih is used to link from one page to another. 
+    The "href" attribute indicates the link's destination 
+    - An unvisited link is colored blue, while a visited link is colored purple 
+    
+    Example HTML Links: 
+            <a href="index.html">Sam's Home Page</a>
+            <a href="https://www.bing.com/#">Bing</a>
+    
+    "https": Stands for Hyper Text Transfer Protocol
+    
+    Types of Linking: 
+            Relative- Separated, but files are located within the relative vicinity 
+            Absolute- From all one source/root directory/domain-name 
+            Email- Just an email adress 
+                    ex. <a href=mailto:swevans@mavs.coloradomesa.edu>Email Sam!</a>
+            Target- How to open the link 

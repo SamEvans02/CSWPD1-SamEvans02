@@ -1,0 +1,25 @@
+Images: 
+Tag: <img> (No closing tag) 
+        ex. <img src="mypicture.jpg" alt="Graphic of Web Words"> 
+
+Alignment: 
+        ex. <img src="picture.png" align="top, middle, bottom" alt="My Picture">
+Spacing: 
+        ex. <img src="picture.jpg" hspace="x" vspace="x" alt="My Picture">
+Float: 
+        ex. <img src="picture.gif" align="left, right" alt="My Picture">
+
+Style: 
+        ex. <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+Using Width and Height Attributes: 
+        ex. <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+New to HTML5: 
+- <figure></figure> contains images and their caption 
+- <figcaption></figcaption> is to add a caption to an image 
+
+Images as Links: 
+<a href="links.html">
+        <img src="Valentine.html" alt="HTML Tutorial" style="width:42px;height:42px;border:0">
+</a>

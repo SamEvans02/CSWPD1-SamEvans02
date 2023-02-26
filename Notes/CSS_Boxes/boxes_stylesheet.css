@@ -1,0 +1,63 @@
+/* Element Width and Height Calculations 
+Total Width = width + (left + right padding) + (left + right margin) 
+Total Height = height + (top + bottom padding) + (top + bottom margin) 
+*/
+/*
+Comments like in C++! 
+*/
+
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 300px;
+    height: 400px;
+    background-color: #ee3e80;
+}
+p {
+    width: 45%;
+    height: 25%;
+    background-color: #e1ddda;
+}*/
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*div.width {
+    background-color: #ee3e80;
+    width: 300px;
+    border: 25px solid #a90df1;
+}
+div.height {
+    background-color: #b92f62;
+    height: 300px;
+    border: 25px solid #0b35f1;
+}*/
+div.pad {
+    background-color: #ee3e80;
+    width: 300px;
+    border: 25px solid #e1ddda;
+    padding: 25px;
+    margin: 25px;
+    /*outline-style:  dashed;
+    outline-color: lime;
+    outline-offset: 4px;
+    outline-width: thick;*/
+    outline-style: dashed;
+    outline-color: lime;
+    outline-offset: 4px;
+    outline-width: thick;
+    margin: 50px 25px 50px 45px /*top right bottom left*/
+}
+div.m {
+    background-color: #ee3e80;
+    height: 300px;
+    border: 25 px solid #e1ddda;
+    padding: 25px;
+    margin: 25px;
+}

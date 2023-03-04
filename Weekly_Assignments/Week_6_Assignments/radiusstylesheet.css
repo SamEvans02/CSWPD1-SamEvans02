@@ -1,0 +1,35 @@
+#rcorners1 {
+    border-radius: 15px 50px 30px 5px;
+    background: #ff9933;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+
+#rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #993366;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+
+#rcorners3 {
+    border-radius: 15px 50px;
+    background: #ff99cc;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
+
+#rcorners4 {
+    border-radius: 15px;
+    background: #99cc00;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}

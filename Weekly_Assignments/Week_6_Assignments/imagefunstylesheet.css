@@ -1,0 +1,5 @@
+#borderImg {
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image: url(clovers.jpg) 30 repeat; /*round, stretch, or repeat*/
+}

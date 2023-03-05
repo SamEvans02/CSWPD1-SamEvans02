@@ -1,28 +1,48 @@
+h1 {
+    color: rgb(50, 241, 255);
+}
 body {
-    background-color: rgb(230, 243, 181);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 36, 36);
+
+}
+a {
+    text-decoration: none; /*double underline overline*/
+}
+
+
+div.greeting {
+    background-color: rgb(255, 0, 85);
+    margin: 0px 1450px;
+    width: 200px;
 
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    background-color: crimson;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px;
+    border: 2px solid #000000;
     float: left;
     width: 180px;
+    border-radius: 3px;
 
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    background-color: blueviolet;
+    color: aquamarine;
+    border: 2px solid #dfdfdf;
+    border-radius: 6px;
 
 }
 
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }

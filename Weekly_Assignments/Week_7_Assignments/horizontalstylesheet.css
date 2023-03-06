@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+
+}
+ul { /*Inline*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*width: 150px;*/
+    background-color: #ccccff;
+
+}
+
+
+
+/*Blocks*/
+li {
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    padding: 15px;
+
+}
+
+li a {
+    text-decoration: none;
+
+}
+li a:hover { /*Changes the link color on hover*/
+    background-color: #555;
+    color: white;
+
+}
+li a:active { /*Mark and active page in Navigation*/
+    background-color: #555;
+    color: white;
+
+}
+li a:hover:not(.active) {
+    background-color: #993366;
+    color: white;
+
+}
+
+
+/*Float with Boxes (Right-Justified Link-Bar)*//*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccccff;
+
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    padding: 18px;
+    background-color: #ccccff;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+
+}*/

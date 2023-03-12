@@ -6,17 +6,24 @@ body {
 }
 h2 {
     margin: 20px 0px 10px 50px;
+    color: rgb(0, 2, 116);
 }
 
 
 .bodyText {
     margin: 20px 0px 10px 75px;
 }
-
 .container {
 	width: 95%;
 	margin: 0 auto;
 }
+.logo {
+    float: left;
+    /*margin: 0px;*/
+    padding: 0px;
+    color: rgb(0, 83, 83);
+}
+
 
 header {
     background: rgb(0, 255, 242); /*#55d6aa*/
@@ -27,12 +34,6 @@ header::after {
     clear: both;
 }
 
-.logo {
-    float: left;
-    /*margin: 0px;*/
-    padding: 0px;
-    color: rgb(0, 83, 83);
-}
 
 nav {
     float: left;

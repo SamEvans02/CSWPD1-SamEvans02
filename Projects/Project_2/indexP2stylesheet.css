@@ -37,7 +37,7 @@ li a:hover:not(.active) {
     
 }
 
-.photo {
+.photoLogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,9 +65,16 @@ h1 {
     background-color: peru;
     width: 104.2%;
     height: 70px;
+    border-radius: 0px 0px 15px 15px;
 
 }
-.highlight {
+h2 {
+    float: left;
+    margin-left: 100px;
+}
+
+
+.centeredName {
     
     width: 462.3%;
     height: 70px;
@@ -79,9 +86,51 @@ h1 {
     height: 200px;
 }*/
 
-.bodyText {
+.bakeryName {
     float: left;
     margin-left: 2%;
     margin-top: -1%;
     /*margin: 8px;*/
+}
+
+.bodyContent {
+    float: left;
+    margin-top: 560px;
+    margin-left: -265px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    border-style: inset;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3.5px;
+
+}
+.bodyContentTwo {
+    float: left;
+    margin-top: 165px;
+    margin-left: -735px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.photoOneRight {
+    margin-top: 145px;
+    margin-right: 25px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: azure;
+    float: right;
+}
+.photoTwoRight {
+    margin-top: 540px;
+    margin-right: -455px;
+    border-radius: 5px;
+    float: right;
 }

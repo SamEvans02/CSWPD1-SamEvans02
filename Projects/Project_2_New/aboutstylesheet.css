@@ -1,63 +1,16 @@
-/*For NavBar*/
-ul {
-    list-style-type: none;
-    margin: -8px;
-    padding: 0px;
-    width: 200px;
-    background-color: rgb(8, 8, 8);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    float: left;
-    
-    
+/*==================================== Body ====================================*/
+body {
+    zoom: .85;
 }
-
-li a {
-    display: block;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
-    font-size: larger;
-    font-weight: 600;
-
-}
-li a.active {
-    background-color: rgb(207, 161, 99);
-    color: black;
-    border-radius: 15px;
-    text-align: left;
-    
-}
-li a:hover:not(.active) {
-    background-color: blanchedalmond;
-    color: black;
-    border-radius: 20px 0px 0px 20px;
-    transition: linear 125ms;
-    transition-delay: 30ms;
-    
-}
-
-.photoLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    width: 50%;
-    background-color: white;
-    border-style: groove;
-    border-color: rgb(235, 235, 235);
-    border-radius: 5px;
-    width: 100px;
-    height: 80px;
-    margin-bottom: -50px;
-    
-}
-
 
 
 /*For the main body of the page*/
 h1 {
+    position: -webkit-sticky; /*For Safari*/
+    position: sticky;
+
     display: block;
+    top: 0;
     padding-top: 10px;
     margin: 15px 15px 0px 0px;
     text-align: center;
@@ -74,28 +27,178 @@ h2 {
 }
 
 
-.centeredName {
-    width: 460.9%;
-    height: 70px;
-    margin: -5px 0px 0px -30px;
 
+
+/*==================================== Navbar and Header ====================================*/
+.photoLogo {
+    position: -webkit-sticky; /*For Safari*/
+    position: sticky;
+    top: 1%;
+    bottom: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 5px;*/
+    width: 50%;
+    background-color: white;
+    border-style: groove;
+    border-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 100px;
+    height: 80px;
+    margin-bottom: -50px;
+    
 }
-/*.imageProps {
-    width: 100%;
-    height: 200px;
-}*/
 
-.bakeryName {
+
+header {
+    position: -webkit-sticky; /*For Safari*/
+    position: fixed;
+    /*position: fixed;*/
+    top: 5px;
+    left: 126px;
+
+    z-index: 15;
+    
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.container {
+	position: -webkit-sticky; /*For Safari*/
+    position: sticky;
+    top: 9px;
+
+    width: 81.9%;
+	margin: 0 auto;
+    /*margin-left: 11.93%;*/
+    margin-left: 11.8%;
+    justify-items: left;
+
+    
+    
+}
+
+
+.bakeryTitle {
+    position: -webkit-sticky; /*For Safari*/
+    position: sticky;
     float: left;
-    margin-left: 2%;
-    margin-top: -1%;
-    /*margin: 8px;*/
+    
+    /*margin: 0px;*/
+    padding: 0px;
+    /*padding-left: 3.59%;*/
+    padding-left: 80%;
+    padding-right: 10000%;
+    color: rgb(0, 0, 0);
+
+    margin-top: -10px;
+    /*margin-left: .4%;*/
+    margin-left: 5px;
 }
+
+
+nav {
+    margin-top: 5%;
+    float: left;
+
+}
+nav ul {
+    /*
+    margin: 0px 20px 0px 0px;
+    padding: 15px 0px 0px 0px;
+    */
+    list-style: none;
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    width: 200px;
+    background-color: rgb(8, 8, 8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    
+    margin-left: -101.5%;
+    margin-top: -50%;
+}
+nav li {
+    padding-top: 1.6%;
+    text-align: center;
+
+    position: relative;
+}
+nav li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+nav li a.active {
+    background-color: rgb(207, 161, 99);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: left;
+}
+nav li a.active:hover {
+    color: rgb(77, 43, 16);
+}
+nav li a:hover:not(.active) {
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 20px 0px 0px 20px;
+    transition: linear 125ms;
+    transition-delay: 30ms;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    font-size: 14px;
+}
+nav a:hover {
+    color: #006eff;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    border-radius: 2px 0px 2px 0px;
+
+    /*position: absolute;*/
+    
+    /*position: 15px;*/
+    top: 13px;
+    width: 0%;
+
+    
+}
+nav a:hover::before {
+    width: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .bodyContent {
     float: left;
-    margin-top: 145px;
-    margin-left: -305px;
+    margin-top: 125px;
+    margin-left: 265px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: larger;
     font-weight: 500;
@@ -108,18 +211,17 @@ h2 {
 
 
 
-
-
-
 .photoOneRight {
-    margin-top: 145px;
-    margin-right: 25px;
+    position: relative;
+    margin-top: 125px;
+    margin-right: 125px;
     border-style: ridge;
     border-radius: 5px;
     border-color: azure;
     float: right;
+    margin-bottom: 2%;
 }
-.photoTwoRight {
+/*.photoTwoRight {
     margin-top: 540px;
     margin-right: -455px;
     border-style: ridge;
@@ -127,18 +229,21 @@ h2 {
     border-color: azure;
     float: right;
 }
-.photoThreeCenter {
+/*.photoThreeCenter {
     float: left;
     margin-top: 615px;
     margin-left: -225px;
 
-}
+}*/
 .photoFourCenter {
-    float: left;
-    margin-top: 685px;
-    margin-left: -885px;
+    position: relative;
+    float: right;
+    margin-top: 125px;
+    margin-right: 125px;
     border-style: ridge;
     border-radius: 5px;
     border-color: azure;
+
+    z-index: 10;
 
 }

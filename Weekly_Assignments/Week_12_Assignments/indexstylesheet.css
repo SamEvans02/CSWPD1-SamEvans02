@@ -9,10 +9,14 @@ h2 {
     color: rgb(0, 2, 116);
 }
 h3 {
+    /*position: -webkit-sticky;*/
+    position: sticky;
+    /*position: absolute;*/
+    /*position: fixed;*/ /*Don't use this*/
     margin-top: -20px;
     margin-left: 150px;
     color: midnightblue;
-    position: fixed;
+    
 }
 
 

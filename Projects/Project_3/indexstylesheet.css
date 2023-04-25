@@ -9,7 +9,7 @@ h2 {
     color: rgb(0, 2, 116);
 }
 h3 {
-    /*position: -webkit-sticky;*/
+    position: -webkit-sticky;
     position: sticky;
     /*position: absolute;*/
     /*position: fixed;*/ /*Don't use this*/

@@ -51,8 +51,44 @@
 
         <footer>
             <div class="containerTwo">
-                <a href="https://berkshirehathaway.com/disclaimer.html" target="_blank" style="color: white;">Official Legal Disclaimer</a> &ensp;&ensp; <a href="mydisclaimer.html" target="_blank" style="color: white;">My Legal Disclaimer</a>
-                <p>Copyright © 1978-2023 Berkshire Hathaway Inc.</p>
+                <a href="https://berkshirehathaway.com/disclaimer.html" target="_blank" style="color: white;">Official Legal Disclaimer</a>
+                &ensp;&ensp;
+                <a href="mydisclaimer.html" target="_blank" style="color: white;">My Legal Disclaimer</a>
+                <p>
+                    Copyright © 1978-2023 Berkshire Hathaway Inc.
+                    <!--&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->
+                    <p class="scriptElement">
+                        <script> //Same as first use of JavaScript 
+                            date = new Date();
+                            //alert(date.getHours());
+                            //alert(date.getMinutes());
+                            var militaryHours = date.getHours();
+                            var minutes = date.getMinutes();
+                            //var minutes = 5; Test for when "minutes < 10" 
+                            var meridiem;
+                            if (militaryHours > 12) {
+                                meridiem = "PM";
+                            }
+                            else if (militaryHours <= 12) {
+                                meridiem = "AM";
+                            }
+                            var hours = (militaryHours % 12);
+                            if (minutes < 10) {
+                                document.write("Page Accessed at ", hours, ":0", minutes, ' ', meridiem);
+                            }
+                            else {
+                                document.write("Page Accessed at ", hours, ':', minutes, ' ', meridiem);
+                            }
+                        </script>
+                    </p>
+                    <div class="bottomRightCornerPhotoLogo">
+                        <a href="https://berkshirehathaway.com/" target="_blank">
+                            <figure>
+                                <img src="images/BHlogo1_2.jpg" width="35px">
+                            </figure>
+                        </a>
+                    </div>
+                </p>
             </div>
         </footer>
     </body>

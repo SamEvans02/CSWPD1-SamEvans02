@@ -78,13 +78,18 @@
                             var minutes = date.getMinutes();
                             //var minutes = 5; Test for when "minutes < 10" 
                             var meridiem;
-                            if (militaryHours > 12) {
+                            if (militaryHours >= 12 && militaryHours != 24) {
                                 meridiem = "PM";
                             }
-                            else if (militaryHours <= 12) {
+                            else if (militaryHours < 12 || militaryHours == 24) {
                                 meridiem = "AM";
                             }
-                            var hours = (militaryHours % 12);
+                            if (militaryHours % 12 == 0) {
+                                var hours = 12;
+                            }
+                            else {
+                                var hours = (militaryHours % 12);
+                            }
                             if (minutes < 10) {
                                 document.write("Page Accessed at ", hours, ":0", minutes, ' ', meridiem);
                             }

@@ -206,9 +206,41 @@ figure {
 
 
 
-
 div.marginRight {
-    margin-left: 200px;
+    margin-left: 75px;
+}
+
+.title1 {
+    margin-top: 2%;
+    margin-left: 90px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #616161;
+    z-index: 5;
+    
+}
+.title2 {
+    /*margin-top: 135%;*/
+    margin-top: 1600px;
+    margin-left: 90px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #616161;
+    z-index: 5;
+}
+.title3 {
+    /*margin-top: 42%;*/
+    margin-top: 740px;
+    margin-left: 90px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #616161;
+    z-index: 5;
+}
+.whiteBlock {
+    /*back*/
+    box-shadow: #616161;
+    opacity: .1;
 }
 
 div.gallery {
@@ -220,11 +252,15 @@ div.gallery {
     margin: 250px 0px 0px 100px;
     border: 2px solid #000000;
     float: left;
-    width: 180px;
+    /*width: 180px;*/
+    /*width: 20%;*/
+    width: 320px;
+    /*width: 18%;*/
     border-radius: 3px;
     
-    margin-top: 13%;
-    
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 1%;
 
 }
 div.gallery:hover {
@@ -236,19 +272,21 @@ div.gallery:hover {
 }
 div.gallery img {
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 
 div.desc {
+    margin-top: -50%;
     padding: 5px;
     text-align: center;
+    z-index: 5;
 }
 
 
 
 .bodyContentTwo {
     float: left;
-    margin-top: 55px;
+    margin-top: 850px;
     margin-left: 650px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: larger;
